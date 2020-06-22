@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <title>Formulário</title>
+
+    <link rel="stylesheet" href="../css/formulario.css">
+   
+    <style>
+        body{
+            background-image: url(../img/fundao.jpg);
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size: 100%;
+
+            color: white;
+        }
+    </style>
+    
+    
+    <body>
+        <center><h1>Formulario de cadastro</h1></center>
+        
+        <main>
+            <form>
+                <div>
+                    <center><label for="username" name="username">Nick:</label><br></center>
+                    <input type="text" id="username" name="username"><br>
+
+
+                </div>
+
+            </form>
+            <br>
+            <p>Qual a sua rota principal?</p>
+            <form>
+                <div>
+                    <input type="radio" id="1" name="rota" value="1">
+                    <label for="1">Top</label><br>
+                    <input type="radio" id="2" name="rota" value="2">
+                    <label for="2">Jungler</label><br>
+                    <input type="radio" id="3" name="rota" value="3">
+                    <label for="3">Mid</label><br>
+                    <input type="radio" id="4" name="rota" value="4">
+                    <label for="4">Botton</label><br>
+                    <input type="radio" id="5" name="rota" value="5">
+                    <label for="5">Suporte</label>
+                </div>
+            
+            </form><br>
+
+            <p>Qual o seu Campeão favorito?</p>
+            
+            <form>
+                <div>
+                    <input type="text" name="fav">
+                    <label for="fav"></label>
+                </div>
+
+            </form>
+            <br><br><br>
+            <form>
+                <div>
+                    <input type="button" id="submit" name="submit" value="Pronto!" onclick= "myFunction()">
+
+                    
+                    
+                    <script type="text/javascript">
+                        function myFunction(){
+                            alert("Obrigado pela contribuição!");
+                            alert("Voce voltara para o home.")
+                            window.location="home.html";
+                        }
+                        </script>
+                   
+                    
+                </div>
+
+            </form>
+
+        </main>
+        <center><a href="../easter eag/bahia.html" class="bah">Bahia</p></center>
+            
+    </body>
+</html>

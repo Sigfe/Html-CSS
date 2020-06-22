@@ -1,0 +1,158 @@
+.header{
+	padding-bottom: 20px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	text-shadow: 3px 2px red;
+	
+}
+/*Dive geral com as dives dentro!*/
+.dive_geral{	
+	padding-bottom: 40px;
+	border: solid;
+	border-color: white;
+	height: 600px;
+	
+}
+
+	/*dive das dives*/
+	.dive_geral2{
+		display: flex;
+		flex-direction: row;
+
+		height: 100px;
+		
+	}
+
+		.link_geral{
+			display: flex;
+			flex-direction: row;
+			flex: 1;
+			
+			align-items: center;
+			
+			padding:20px;
+
+			border-bottom: solid;
+			border-color: white;
+		}
+			.link{
+				display: flex;
+				flex: 1;
+
+				align-items: center;
+			}
+				.homi{font-size: 20px;color: gold;text-decoration: underline;}
+				.homi:hover {font-size: 20px; color: white; text-decoration:underline gold;}
+
+			.link1{
+				display: flex;
+				flex: 1;
+				
+				align-items: center;
+				
+
+			}
+				.alma {font-size: 20px; color: white; text-decoration: none;}
+				.alma :hover{font-size: 20px; color: gold; text-decoration: underline; background-color: black;}
+				
+			.link2{
+				display: flex;
+				flex: 1;
+
+				align-items: center;
+			}
+				.bigodudo {font-size: 20px; color: white; text-decoration: none; }
+				.bigodudo :hover{font-size: 20px; color: gold; text-decoration: underline; background-color: black;}
+
+			.link3{
+				display: flex;
+				flex: 1;
+
+				align-items: center;
+
+			}
+				.pix {font-size: 20px; color: white; text-decoration: none; }
+				.pix :hover{font-size: 20px; color: gold; text-decoration: underline; background-color: black;}
+
+			.link4{
+				display: flex;
+				flex: 1;
+
+				align-items: center;
+				
+			}
+				.Estilo_do_estiloso {font-size: 20px; color: white; text-decoration: none; }
+				.Estilo_do_estiloso :hover{font-size: 20px; color: gold; text-decoration: underline; background-color: black;}
+
+			
+			.link5{
+				display: flex;
+				flex: 1;
+
+				justify-content: right;
+			}
+				.doc{font-size: 20px; color: gold;}
+				.doc :hover{font-size: 20px; color: white; text-decoration: none; background-color: black;}
+
+		.main{
+			display: flex;
+			flex: 2;
+			flex-direction: column;
+			height: 560px;
+			align-items: center;
+			justify-content: center;
+			
+			padding-left: 10px;
+			padding-right: 10px;
+
+			border:solid;
+			border-color: white;
+			border-top: none;
+			border-bottom: none;
+
+		}
+		.split1{
+			display: flex;
+			flex-direction: column;
+			flex: 1;
+
+		}
+			.dabout{
+				display: flex;
+				flex: 1;
+				
+				justify-content: center;
+
+			}
+			.dabout1{
+				display: flex;
+				flex: 1;
+				flex-direction: column;
+
+				justify-content: center;
+				padding: 10px;
+			}
+				.img1{flex: 1;	}
+				.img2{flex: 1;}
+			
+			.split2{
+				display: flex;
+				flex: 1;
+			}
+				.img3{flex: 1;}
+				.img4{flex: 1;}
+		
+		.bot{
+			
+			background-color: black;
+			opacity: 90%;
+			height: 110px;
+
+			
+		}
+
+	/*HOME*/
+	
